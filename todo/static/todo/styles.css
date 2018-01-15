@@ -1,0 +1,55 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+body {
+	background: rgba(44, 62, 80, .8);
+	font-family: 'Oswald', 'Futura', sans-serif;
+	font-size: 18px;
+}
+
+.wrapper {
+	margin-top: 1em;
+}
+
+#content {
+	background-color: beige;
+	padding: 25px;
+}
+
+#content > h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 0;
+}
+
+.the-icons {
+	font-size: 15px;
+}
+
+.t10 {
+	margin-top: 10px;
+}
+
+.t20 {
+	margin-top: 20px;
+	color: green;
+}
+
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+	color: red;
+}
+
+footer {
+	margin-top: 20px;
+	color: white;
+}
+
+.input-group .form-control {
+	font-size: 14px;
+}
+
+a, a:hover, a:active, a:visited {
+    color: green;
+    border: 1px solid beige;
+}
